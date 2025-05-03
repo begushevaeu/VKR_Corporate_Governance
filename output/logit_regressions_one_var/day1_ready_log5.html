@@ -1,0 +1,53 @@
+
+<table style="text-align:center"><caption><strong>Логистические регрессии (5% порог) по чистым данным (day1)</strong></caption>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="9"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="9" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>model_step_BS</td><td>model_step_In</td><td>model_step_MA</td><td>model_step_GV</td><td>model_step_IL</td><td>model_step_CE</td><td>model_step_PE</td><td>model_step_NC</td><td>model_step_FD</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Board_size_log</td><td>0.992</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(1.018)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Independence</td><td></td><td>2.392<sup>*</sup></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(1.357)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Mean_age_log</td><td></td><td></td><td>1.386</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(2.057)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Gender_variability</td><td></td><td></td><td></td><td>0.034</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(2.049)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Independent_leader</td><td></td><td></td><td></td><td></td><td>-0.527</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.686)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Current_exp_log</td><td></td><td></td><td></td><td></td><td></td><td>0.139</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td>(0.199)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Past_exp_log</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.080</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.249)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Number_of_committees</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.279</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.204)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Foreign_directors</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.415</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.858)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Total_assets_log</td><td>-0.331<sup>**</sup></td><td>-0.301<sup>**</sup></td><td>-0.277<sup>**</sup></td><td>-0.262<sup>**</sup></td><td>-0.259<sup>**</sup></td><td>-0.286<sup>**</sup></td><td>-0.272<sup>**</sup></td><td>-0.316<sup>**</sup></td><td>-0.269<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.149)</td><td>(0.145)</td><td>(0.131)</td><td>(0.130)</td><td>(0.130)</td><td>(0.135)</td><td>(0.133)</td><td>(0.137)</td><td>(0.131)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Age_of_company_log</td><td></td><td>-0.423</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.287)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year_hot</td><td>1.247<sup>*</sup></td><td>1.275<sup>*</sup></td><td>1.062<sup>*</sup></td><td>1.101<sup>*</sup></td><td>1.136<sup>*</sup></td><td>1.149<sup>*</sup></td><td>1.141<sup>*</sup></td><td>1.103<sup>*</sup></td><td>1.143<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.650)</td><td>(0.655)</td><td>(0.626)</td><td>(0.636)</td><td>(0.626)</td><td>(0.630)</td><td>(0.638)</td><td>(0.631)</td><td>(0.632)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Tech_sector</td><td>0.883<sup>*</sup></td><td>1.090<sup>**</sup></td><td>0.997<sup>*</sup></td><td>1.004<sup>*</sup></td><td>0.999<sup>*</sup></td><td>0.953<sup>*</sup></td><td>0.985<sup>*</sup></td><td>1.047<sup>**</sup></td><td>1.029<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.533)</td><td>(0.531)</td><td>(0.520)</td><td>(0.519)</td><td>(0.519)</td><td>(0.523)</td><td>(0.522)</td><td>(0.520)</td><td>(0.524)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-0.991</td><td>1.009</td><td>-4.583</td><td>0.598</td><td>0.632</td><td>0.528</td><td>0.586</td><td>0.378</td><td>0.750</td></tr>
+<tr><td style="text-align:left"></td><td>(2.095)</td><td>(1.375)</td><td>(7.798)</td><td>(1.333)</td><td>(1.317)</td><td>(1.319)</td><td>(1.313)</td><td>(1.335)</td><td>(1.352)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>113</td><td>113</td><td>113</td><td>113</td><td>113</td><td>113</td><td>113</td><td>113</td><td>113</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-63.132</td><td>-61.396</td><td>-63.385</td><td>-63.614</td><td>-63.303</td><td>-63.366</td><td>-63.562</td><td>-62.658</td><td>-63.495</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>136.263</td><td>134.792</td><td>136.771</td><td>137.227</td><td>136.606</td><td>136.732</td><td>137.125</td><td>135.316</td><td>136.991</td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="9" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

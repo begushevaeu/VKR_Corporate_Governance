@@ -1,0 +1,55 @@
+
+<table style="text-align:center"><caption><strong>Линейные регрессии по чистым данным (day30)</strong></caption>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="9"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="9" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>model_step_BS</td><td>model_step_In</td><td>model_step_MA</td><td>model_step_GV</td><td>model_step_IL</td><td>model_step_CE</td><td>model_step_PE</td><td>model_step_NC</td><td>model_step_FD</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Board_size_log</td><td>0.068</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.112)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Independence</td><td></td><td>0.064</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.170)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Mean_age_log</td><td></td><td></td><td>0.206</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.260)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Gender_variability</td><td></td><td></td><td></td><td>-0.272</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.266)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Independent_leader</td><td></td><td></td><td></td><td></td><td>-0.031</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.080)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Current_exp_log</td><td></td><td></td><td></td><td></td><td></td><td>-0.022</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td>(0.025)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Past_exp_log</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.044</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.031)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Number_of_committees</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.031</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.025)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Foreign_directors</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.065</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.114)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year_hot</td><td>0.193<sup>***</sup></td><td>0.181<sup>***</sup></td><td>0.175<sup>**</sup></td><td>0.169<sup>**</sup></td><td>0.185<sup>***</sup></td><td>0.173<sup>**</sup></td><td>0.157<sup>**</sup></td><td>0.180<sup>***</sup></td><td>0.185<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.069)</td><td>(0.068)</td><td>(0.068)</td><td>(0.069)</td><td>(0.068)</td><td>(0.068)</td><td>(0.069)</td><td>(0.067)</td><td>(0.068)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Net_Debt_EBITDA</td><td>-0.019</td><td>-0.019</td><td></td><td>-0.019</td><td>-0.018</td><td></td><td></td><td>-0.021<sup>*</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.012)</td><td>(0.012)</td><td></td><td>(0.012)</td><td>(0.012)</td><td></td><td></td><td>(0.012)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Tech_sector</td><td></td><td></td><td>0.109</td><td></td><td></td><td>0.114</td><td>0.114</td><td></td><td>0.112</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.071)</td><td></td><td></td><td>(0.071)</td><td>(0.070)</td><td></td><td>(0.071)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Current_ratio</td><td>-0.024<sup>**</sup></td><td>-0.024<sup>***</sup></td><td>-0.022<sup>**</sup></td><td>-0.022<sup>**</sup></td><td>-0.024<sup>***</sup></td><td>-0.022<sup>**</sup></td><td>-0.023<sup>**</sup></td><td>-0.025<sup>***</sup></td><td>-0.022<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-0.217</td><td>-0.078</td><td>-0.907</td><td>-0.029</td><td>-0.057</td><td>-0.064</td><td>-0.050</td><td>-0.132</td><td>-0.098</td></tr>
+<tr><td style="text-align:left"></td><td>(0.265)</td><td>(0.079)</td><td>(1.004)</td><td>(0.074)</td><td>(0.068)</td><td>(0.085)</td><td>(0.077)</td><td>(0.087)</td><td>(0.069)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.143</td><td>0.141</td><td>0.144</td><td>0.148</td><td>0.141</td><td>0.145</td><td>0.155</td><td>0.152</td><td>0.142</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.110</td><td>0.108</td><td>0.112</td><td>0.116</td><td>0.108</td><td>0.113</td><td>0.123</td><td>0.120</td><td>0.109</td></tr>
+<tr><td style="text-align:left">Residual Std. Error (df = 105)</td><td>0.292</td><td>0.292</td><td>0.292</td><td>0.291</td><td>0.292</td><td>0.292</td><td>0.290</td><td>0.290</td><td>0.292</td></tr>
+<tr><td style="text-align:left">F Statistic (df = 4; 105)</td><td>4.371<sup>***</sup></td><td>4.307<sup>***</sup></td><td>4.425<sup>***</sup></td><td>4.571<sup>***</sup></td><td>4.310<sup>***</sup></td><td>4.455<sup>***</sup></td><td>4.830<sup>***</sup></td><td>4.699<sup>***</sup></td><td>4.339<sup>***</sup></td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="9" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

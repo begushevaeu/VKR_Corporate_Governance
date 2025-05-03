@@ -1,0 +1,61 @@
+
+<table style="text-align:center"><caption><strong>Линейные регрессии по грязным данным (day30)</strong></caption>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="9"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="9" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>model_step_BS</td><td>model_step_In</td><td>model_step_MA</td><td>model_step_GV</td><td>model_step_IL</td><td>model_step_CE</td><td>model_step_PE</td><td>model_step_NC</td><td>model_step_FD</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Board_size_log</td><td>0.068</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.112)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Independence</td><td></td><td>0.089</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.166)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Mean_age_log</td><td></td><td></td><td>0.175</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.247)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Gender_variability</td><td></td><td></td><td></td><td>-0.247</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.251)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Independent_leader</td><td></td><td></td><td></td><td></td><td>-0.036</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.073)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Total_assets_log</td><td></td><td></td><td></td><td></td><td>0.026</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.017)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Number_of_committees</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.046<sup>**</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.021)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Foreign_directors</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.077</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.107)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year_hot</td><td>0.193<sup>***</sup></td><td>0.251<sup>***</sup></td><td>0.209<sup>***</sup></td><td>0.172<sup>**</sup></td><td>0.255<sup>***</sup></td><td></td><td></td><td>0.104<sup>*</sup></td><td>0.189<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.069)</td><td>(0.071)</td><td>(0.077)</td><td>(0.067)</td><td>(0.067)</td><td></td><td></td><td>(0.062)</td><td>(0.066)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">ROA</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.278</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.182)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Net_Debt_EBITDA</td><td>-0.019</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.020<sup>*</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.012)</td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.011)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Current_exp_log</td><td></td><td></td><td></td><td></td><td></td><td>-0.011</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td>(0.021)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Past_exp_log</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-0.037</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(0.026)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Tech_sector</td><td></td><td></td><td>0.196<sup>**</sup></td><td>0.173<sup>**</sup></td><td>0.182<sup>**</sup></td><td>0.133<sup>*</sup></td><td>0.137<sup>*</sup></td><td></td><td>0.160<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.088)</td><td>(0.071)</td><td>(0.078)</td><td>(0.069)</td><td>(0.070)</td><td></td><td>(0.073)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Current_ratio</td><td>-0.024<sup>**</sup></td><td>-0.023<sup>***</sup></td><td>-0.022<sup>**</sup></td><td>-0.019<sup>**</sup></td><td>-0.021<sup>**</sup></td><td></td><td></td><td>-0.027<sup>***</sup></td><td>-0.021<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.009)</td><td>(0.008)</td><td></td><td></td><td>(0.008)</td><td>(0.009)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-0.217</td><td>-0.189<sup>**</sup></td><td>-0.824</td><td>-0.090</td><td>-0.447<sup>**</sup></td><td>0.045</td><td>0.055</td><td>-0.129</td><td>-0.101</td></tr>
+<tr><td style="text-align:left"></td><td>(0.265)</td><td>(0.080)</td><td>(0.955)</td><td>(0.068)</td><td>(0.182)</td><td>(0.045)</td><td>(0.035)</td><td>(0.081)</td><td>(0.066)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>110</td><td>95</td><td>80</td><td>104</td><td>87</td><td>84</td><td>78</td><td>92</td><td>103</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.143</td><td>0.194</td><td>0.229</td><td>0.192</td><td>0.284</td><td>0.046</td><td>0.069</td><td>0.232</td><td>0.176</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.110</td><td>0.167</td><td>0.188</td><td>0.159</td><td>0.239</td><td>0.022</td><td>0.044</td><td>0.187</td><td>0.142</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.292 (df = 105)</td><td>0.284 (df = 91)</td><td>0.271 (df = 75)</td><td>0.275 (df = 99)</td><td>0.261 (df = 81)</td><td>0.229 (df = 81)</td><td>0.231 (df = 75)</td><td>0.237 (df = 86)</td><td>0.275 (df = 98)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>4.371<sup>***</sup> (df = 4; 105)</td><td>7.279<sup>***</sup> (df = 3; 91)</td><td>5.566<sup>***</sup> (df = 4; 75)</td><td>5.882<sup>***</sup> (df = 4; 99)</td><td>6.416<sup>***</sup> (df = 5; 81)</td><td>1.940 (df = 2; 81)</td><td>2.776<sup>*</sup> (df = 2; 75)</td><td>5.186<sup>***</sup> (df = 5; 86)</td><td>5.224<sup>***</sup> (df = 4; 98)</td></tr>
+<tr><td colspan="10" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="9" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
