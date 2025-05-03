@@ -10,7 +10,7 @@ data_day1_ready <- readRDS("data/day1_ready.rds")
 #### === 5% === ####
 
 #### === Определяем переменные === ####
-
+# 
 target_var <- "UNDP_5"
 
 interest_vars <- c("Mean_age_log", "Board_size_log", "Gender_variability",
