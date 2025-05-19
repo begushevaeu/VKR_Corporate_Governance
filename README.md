@@ -31,52 +31,51 @@
 
 - Язык программирования: **R**
 
----
-
 ## Структура проекта
 
+```
 VKR_Corporate_Governance-main/
 ├── .gitignore
 ├── README.md
 ├── VKR_IPO_Begusheva.Rproj
 │
 ├── data/
-│   ├── day1_raw.rds, day1_imp.rds, day1_ready.rds, day1_log.rds # Данные по 1-ому дню
+│   ├── day1_raw.rds, day1_imp.rds, day1_ready.rds, day1_log.rds     # Данные по 1-ому дню
 │   ├── day30_raw.rds, day30_imp.rds, day30_ready.rds, day30_log.rds # Данные по 30-ому дню
-│   - *_raw* — исходные данные
-│   - *_imp* — с заполнением пропусков
-│   - *_log* — с логарифмированными переменными
-│   - *_ready* — подготовленные для анализа
+│   │   - *_raw*   — исходные данные
+│   │   - *_imp*   — с заполнением пропусков
+│   │   - *_log*   — с логарифмированными переменными
+│   │   - *_ready* — подготовленные для анализа
 │   └── regressions/raw_log/
-│   └── day1/ # Регрессии по переменным на 1 день
-│   └── day30/ # Регрессии по переменным на 30 день
+│       ├── day1/     # Регрессии по переменным на 1 день
+│       └── day30/    # Регрессии по переменным на 30 день
 │
 ├── scripts/
-│   ├── install_packages.R                        # Установка библиотек и пакетов
-│   ├── create_binary_vars.R                      # Создание бинарных переменных недооценки
-│   ├── data_cleaning.R, data_imputation.R,       
-│   │   data_log_transform.R                      # Предобработка и импутация
-│   ├── descriptive_undp.R, data_summary.R        # Описательная статистика по UNDP
-│   ├── prepare_data_for_regressions_raw_log.R    # Подготовка данных для регрессий
-│   ├── t_tests_day1.R                            # t-тесты по 1 дню
-│   └── linear_regressions_one_var/               # Линейные регрессии по одной переменной
-│   └── linear_regressions_interactions/          # Линейные модели с взаимодействиями переменных интереса с модераторами
-│   └── linear_regressions_all_var/               # Линейные модели со всеми переменными интереса
-│   └── logit_regressions_one_var/                # Логит-модели по одной переменной
-│   └── logit_regressions_interactions/           # Логит-модели с взаимодействиями переменных интереса с модераторами
-│   └── logit_regressions_all_var/                # Логит-модели со всеми переменными интереса
+│   ├── install_packages.R                     # Установка библиотек и пакетов
+│   ├── create_binary_vars.R                   # Создание бинарных переменных недооценки
+│   ├── data_cleaning.R, data_imputation.R,
+│   │   data_log_transform.R                   # Предобработка и импутация
+│   ├── descriptive_undp.R, data_summary.R     # Описательная статистика по UNDP
+│   ├── prepare_data_for_regressions_raw_log.R # Подготовка данных для регрессий
+│   ├── t_tests_day1.R                         # t-тесты по 1 дню
+│   ├── linear_regressions_one_var/            # Линейные регрессии по одной переменной
+│   ├── linear_regressions_interactions/       # Линейные модели с взаимодействиями переменных интереса с модераторами
+│   ├── linear_regressions_all_var/            # Линейные модели со всеми переменными интереса
+│   ├── logit_regressions_one_var/             # Логит-модели по одной переменной
+│   ├── logit_regressions_interactions/        # Логит-модели с взаимодействиями переменных интереса с модераторами
+│   └── logit_regressions_all_var/             # Логит-модели со всеми переменными интереса
 │
 ├── output/
-│   ├── descriptive/                              # Описание данных
-│   ├── t_tests/                                  # Результаты t-тестов
-│   ├── linear_regressions_one_var/               # Линейные модели по одной переменной
-│   ├── linear_regressions_interactions/          # Линейные модели с взаимодействиями
-│   ├── linear_regressions_all/                   # Линейные регрессии со всеми переменными              
-│   ├── logit_regressions_one_var/                # Логистчиеские регрессии по одной переменной
-│   ├── logit_regressions_interactions/           # Логистчиеские регрессии с взаимодействиями переменных интереса с модераторами
-│   ├── logit_regressions_all/                    # Логит-регрессии со всеми переменными интереса
+│   ├── descriptive/                           # Описание данных
+│   ├── t_tests/                               # Результаты t-тестов
+│   ├── linear_regressions_one_var/            # Линейные модели по одной переменной
+│   ├── linear_regressions_interactions/       # Линейные модели с взаимодействиями
+│   ├── linear_regressions_all/                # Линейные регрессии со всеми переменными              
+│   ├── logit_regressions_one_var/             # Логистические регрессии по одной переменной
+│   ├── logit_regressions_interactions/        # Логистические регрессии с взаимодействиями переменных интереса с модераторами
+│   └── logit_regressions_all/                 # Логит-регрессии со всеми переменными интереса
+```
 
----
 
 ## Важное замечание!
 
